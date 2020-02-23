@@ -34,12 +34,12 @@ namespace MarketAPI
                 {
                     Version = "v1",
                     Title = "MarketAPI",
-                    Description = "For Codics",
+                    Description = "Codics Internship task",
                     Contact = new OpenApiContact
                     {
-                        Name="Jhirayr",
-                        Email = "a@b.com",
-                        Url= new Uri("http://fb.com/sa")
+                        Name="Jirayr Avetisyan",
+                        Email = "jir.avetisyan@gmail.com",
+                        Url= new Uri("https://www.facebook.com/jirayr.avetisyan.71")
                     }
                 });
             });

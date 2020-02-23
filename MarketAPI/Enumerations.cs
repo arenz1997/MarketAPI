@@ -10,7 +10,7 @@ namespace MarketAPI
         public enum ResultCodes: int
         {
             Normal = 1,
-            Error = 2
+            Error
         }
     }
 }

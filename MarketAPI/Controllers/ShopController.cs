@@ -40,7 +40,12 @@ namespace MarketAPI.Controllers
             return actionResult;
         }
 
-        [HttpPost]
+        /// <summary>
+        /// BUY ITEM
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpPost("BuyItem")]
         public ActionResult BuyItem(int id)
         {
             ActionResult actionResult = new ActionResult();
